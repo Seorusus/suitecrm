@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-06-22 20:45:47
+<?php /* Smarty version 2.6.31, created on 2020-06-26 18:36:34
          compiled from modules/Campaigns/tpls/WizardNewsletter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'modules/Campaigns/tpls/WizardNewsletter.tpl', 95, false),)), $this); ?>

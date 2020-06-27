@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-06-17 20:47:04
+<?php /* Smarty version 2.6.31, created on 2020-06-26 18:22:47
          compiled from themes/SuiteP/include/MySugar/tpls/actions_menu.tpl */ ?>
 <ul class="dropdown-menu tab-actions">
     <?php if (! $this->_tpl_vars['lock_homepage']): ?>

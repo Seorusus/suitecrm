@@ -69,4 +69,11 @@ $sugar_config['clicktocall_asterisk_user'] = 'suitecrm';
 $sugar_config['clicktocall_asterisk_pass'] = '_!09a-2enmodF67-F';
 $sugar_config['clicktocall_channelIn'] = 'SIP';
 $sugar_config['clicktocall_channelOut'] = 'local';
+$sugar_config['http_referer']['list'][0] = 'razum.agency';
+$sugar_config['http_referer']['list'][1] = '185.65.244.236';
+$sugar_config['resource_management']['default_limit'] = 5000;
+$sugar_config['resource_management']['special_query_modules'][0] = 'Leads';
+$sugar_config['resource_management']['special_query_modules'][1] = 'Contacts';
+$sugar_config['resource_management']['special_query_limit'] = 0;
+$sugar_config['save_query'] = 'populate_only';
 /***CONFIGURATOR***/

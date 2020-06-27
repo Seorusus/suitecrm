@@ -96,9 +96,9 @@ $sugar_config = array (
   array (
     'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'suitecrmuser',
+    'db_user_name' => 'admin_suitecrm',
     'db_password' => '_!09a2enmod',
-    'db_name' => 'suitecrm',
+    'db_name' => 'admin_suitecrm',
     'db_type' => 'mysql',
     'db_port' => '',
     'db_manager' => 'MysqliManager',
@@ -229,7 +229,7 @@ $sugar_config = array (
   'default_permissions' => 
   array (
     'dir_mode' => 1528,
-    'file_mode' => 493,
+    'file_mode' => 432,
     'user' => '',
     'group' => '',
   ),
