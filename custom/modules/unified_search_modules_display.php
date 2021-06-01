@@ -1,7 +1,15 @@
 <?php
-// created: 2018-08-15 11:18:10
+// created: 2020-10-14 23:56:31
 $unified_search_modules_display = array (
   'Accounts' => 
+  array (
+    'visible' => true,
+  ),
+  'Prospects' => 
+  array (
+    'visible' => true,
+  ),
+  'incom_incoming_marketing' => 
   array (
     'visible' => true,
   ),
@@ -9,23 +17,15 @@ $unified_search_modules_display = array (
   array (
     'visible' => true,
   ),
-  'Opportunities' => 
+  'ProspectLists' => 
+  array (
+    'visible' => true,
+  ),
+  'Tasks' => 
   array (
     'visible' => true,
   ),
   'Calls' => 
-  array (
-    'visible' => true,
-  ),
-  'Documents' => 
-  array (
-    'visible' => true,
-  ),
-  'Cases' => 
-  array (
-    'visible' => true,
-  ),
-  'AOS_Contracts' => 
   array (
     'visible' => true,
   ),
@@ -44,6 +44,22 @@ $unified_search_modules_display = array (
   'Campaigns' => 
   array (
     'visible' => true,
+  ),
+  'Opportunities' => 
+  array (
+    'visible' => false,
+  ),
+  'Documents' => 
+  array (
+    'visible' => false,
+  ),
+  'Cases' => 
+  array (
+    'visible' => false,
+  ),
+  'AOS_Contracts' => 
+  array (
+    'visible' => false,
   ),
   'AOP_Case_Events' => 
   array (
@@ -106,18 +122,6 @@ $unified_search_modules_display = array (
     'visible' => false,
   ),
   'ProjectTask' => 
-  array (
-    'visible' => false,
-  ),
-  'ProspectLists' => 
-  array (
-    'visible' => false,
-  ),
-  'Prospects' => 
-  array (
-    'visible' => false,
-  ),
-  'Tasks' => 
   array (
     'visible' => false,
   ),

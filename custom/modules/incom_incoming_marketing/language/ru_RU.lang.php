@@ -1,0 +1,9 @@
+<?php
+// created: 2020-10-15 17:22:24
+$mod_strings = array (
+  'LBL_INCOM_INCOMING_MARKETING_LEADS_FROM_LEADS_TITLE' => 'Предварит. контакты',
+  'LBL_DETAILVIEW_PANEL1' => 'Основная',
+  'LBL_INCOM_INCOMING_MARKETING_CALLS_1_FROM_CALLS_TITLE' => 'Звонки',
+  'LBL_INCOM_INCOMING_MARKETING_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты',
+  'LBL_CUSTO_USER_INCOM_INCOMING_MARKETING_FROM_CUSTO_USER_TITLE' => 'Компания-партнер Uclean  Group',
+);

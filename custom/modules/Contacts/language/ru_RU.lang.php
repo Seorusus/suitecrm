@@ -1,0 +1,27 @@
+<?php
+// created: 2020-09-29 19:50:09
+$mod_strings = array (
+  'LBL_CAMPAIGN' => 'Маркет. кампания:',
+  'LBL_CAMPAIGN_CONTACT' => 'Маркет. кампании',
+  'LBL_LAST_NAME' => 'Название:',
+  'LBL_LAST_NAME_1' => 'Для (Фамилия в род.падеже) Украiнська мова',
+  'LBL_OUTBOUND_MARKETING' => 'Исходящий маркетинг',
+  'LBL_INBOUND_MARKETING' => 'Входящий маркетинг',
+  'LBL_OTHER_MARKETING' => 'Другие услуги',
+  'LBL_EDITVIEW_PANEL1' => 'Маркетинг',
+  'LBL_DETAILVIEW_PANEL1' => 'Маркетинг',
+  'LBL_OUTBOUND_MARKETING_QUANTITY' => 'Количество исходящих звонков',
+  'LBL_INBOUND_MARKETING_QUANTITY' => 'Количество входящих звонков',
+  'LBL_WORK_SCHEDULER' => 'Режим работы',
+  'LBL_CONTACT_STATUS' => 'Статус контакта',
+  'LBL_DESS_PERSON' => 'Лицо принимающее решение',
+  'LBL_USE_CALL_CENTER' => 'Колл-центр есть',
+  'LBL_DESCR_MARKETING' => 'Маркетинг описание',
+  'LBL_DEEP_INTEREST' => 'Особый интерес',
+  'LBL_FOR_PERSON' => 'Выбрать обращение для...',
+  'LBL_INVITATION' => 'Обращение',
+  'LBL_FIRST_NAME' => 'Имя Украiнська мова',
+  'LBL_EDITVIEW_PANEL2' => 'Для ком.предложения',
+  'LBL_DETAILVIEW_PANEL2' => 'Для ком.предложения',
+  'LBL_FOR_FIRST_NAME' => 'Для (Имя в род.падеже) Украiнська мова',
+);

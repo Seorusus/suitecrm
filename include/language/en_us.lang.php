@@ -455,8 +455,8 @@ $app_list_strings = array(
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Account',
         'Contacts' => 'Contact',
+        'Accounts' => 'Account',
         'Opportunities' => 'Opportunity',
         'Tasks' => 'Task',
         'Emails' => 'Email',
@@ -478,8 +478,8 @@ $app_list_strings = array(
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Account',
         'Contacts' => 'Contact',
+        'Accounts' => 'Account',
         'Tasks' => 'Task',
         'Opportunities' => 'Opportunity',
 
@@ -835,6 +835,7 @@ $app_list_strings = array(
     ),
     'duration_intervals' => array(
         '0' => '00',
+        '5' => '05',
         '15' => '15',
         '30' => '30',
         '45' => '45',
@@ -857,6 +858,7 @@ $app_list_strings = array(
 
     'duration_dom' => array(
         '' => 'None',
+        '300' => '5 minutes',
         '900' => '15 minutes',
         '1800' => '30 minutes',
         '2700' => '45 minutes',

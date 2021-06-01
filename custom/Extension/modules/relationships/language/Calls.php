@@ -1,0 +1,5 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_LEADS_CALLS_1_FROM_LEADS_TITLE'] = 'Предварит. контакты';
+$mod_strings['LBL_INCOM_INCOMING_MARKETING_CALLS_1_FROM_INCOM_INCOMING_MARKETING_TITLE'] = 'Входящий Маркетинг';
+$mod_strings['LBL_CALLS_CUSTO_CONTACT_1_FROM_CUSTO_CONTACT_TITLE'] = 'Контакт Uclean_Group';

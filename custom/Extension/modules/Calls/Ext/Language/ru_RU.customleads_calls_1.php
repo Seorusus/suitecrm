@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CALLS_AOK_KNOWLEDGEBASE_1_FROM_AOK_KNOWLEDGEBASE_TITLE'] = 'Скрипт звонка';
+$mod_strings['LBL_LEADS_CALLS_1_FROM_LEADS_TITLE'] = 'Предварит. контакты';

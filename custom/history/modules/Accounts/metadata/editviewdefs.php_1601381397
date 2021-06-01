@@ -1,0 +1,313 @@
+<?php
+$viewdefs ['Accounts'] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'SAVE',
+          1 => 'CANCEL',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'modules/Accounts/Account.js',
+        ),
+      ),
+      'useTabs' => true,
+      'tabDefs' => 
+      array (
+        'LBL_ACCOUNT_INFORMATION' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ADVANCED' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'lbl_account_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+            'label' => 'LBL_NAME',
+            'displayParams' => 
+            array (
+              'required' => true,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'phone_office',
+            'label' => 'LBL_PHONE_OFFICE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'website',
+            'type' => 'link',
+            'label' => 'LBL_WEBSITE',
+          ),
+          1 => 
+          array (
+            'name' => 'phone_fax',
+            'label' => 'LBL_FAX',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'email1',
+            'studio' => 'false',
+            'label' => 'LBL_EMAIL',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'billing_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'shipping_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'shipping',
+              'copy' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
+          ),
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contragent_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONTRAGENT_STATUS',
+          ),
+          1 => 
+          array (
+            'name' => 'work_scheduler_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_SCHEDULER_C',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inbound_marketing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_INBOUND_MARKETING_C',
+          ),
+          1 => 
+          array (
+            'name' => 'inbound_marketing_quantity_c',
+            'studio' => 'visible',
+            'label' => 'LBL_INBOUND_MARKETING_QUANTITY_C',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'outbound_marketing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_OUTBOUND_MARKETING_C',
+          ),
+          1 => 
+          array (
+            'name' => 'outbound_marketing_quantity__c',
+            'studio' => 'visible',
+            'label' => 'LBL_OUTBOUND_MARKETING_QUANTITY_',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'other_marketing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_OTHER_MARKETING_C',
+          ),
+          1 => 
+          array (
+            'name' => 'dess_person_c',
+            'label' => 'LBL_DESS_PERSON_C',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'use_call_center_c',
+            'label' => 'LBL_USE_CALL_CENTER_C',
+          ),
+          1 => 
+          array (
+            'name' => 'descr_marketing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DESCR_MARKETING_C',
+          ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vk_com_c',
+            'label' => 'LBL_VK_COM',
+          ),
+          1 => 
+          array (
+            'name' => 'facebook_com_c',
+            'label' => 'LBL_FACEBOOK_COM',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ok_ru_c',
+            'label' => 'LBL_OK_RU',
+          ),
+          1 => 
+          array (
+            'name' => 'twitter_com_c',
+            'label' => 'LBL_TWITTER_COM',
+          ),
+        ),
+      ),
+      'LBL_PANEL_ADVANCED' => 
+      array (
+        0 => 
+        array (
+          0 => 'account_type',
+          1 => 'industry',
+        ),
+        1 => 
+        array (
+          0 => 'annual_revenue',
+          1 => 'employees',
+        ),
+        2 => 
+        array (
+          0 => 'parent_name',
+        ),
+        3 => 
+        array (
+          0 => 'campaign_name',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_c',
+            'label' => 'LBL_ACCOUNT',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'source_c',
+            'label' => 'LBL_SOURCE',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'working_hours_c',
+            'label' => 'LBL_WORKING_HOURS',
+          ),
+          1 => 
+          array (
+            'name' => 'payment_method_c',
+            'label' => 'LBL_PAYMENT_METHOD',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

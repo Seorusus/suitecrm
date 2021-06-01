@@ -1,0 +1,29 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CUSTO_CONTACT_CAMPAIGNS_FROM_CUSTO_CONTACT_TITLE'] = 'Контакт Uclean_Group';
+$mod_strings['LBL_CUSTO_USER_CAMPAIGNS_FROM_CUSTO_USER_TITLE'] = 'Компания-партнер';
+$mod_strings['LBL_CUSTO_COMPANY_CAMPAIGNS_FROM_CUSTO_COMPANY_TITLE'] = 'Контрагент Uclean_Group';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_AOK_KNOWLEDGEBASE_CAMPAIGNS_1_FROM_AOK_KNOWLEDGEBASE_TITLE'] = 'База знаний';
+$mod_strings['LBL_LEADS_CAMPAIGNS_1_FROM_LEADS_TITLE'] = 'Предварит. контакты';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CUSTO_CONTACT_CAMPAIGNS_FROM_CUSTO_CONTACT_TITLE'] = 'Контакт Uclean_Group';
+$mod_strings['LBL_CUSTO_COMPANY_CAMPAIGNS_FROM_CUSTO_COMPANY_TITLE'] = 'Контрагент Uclean_Group';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_AOK_KNOWLEDGEBASE_CAMPAIGNS_1_FROM_AOK_KNOWLEDGEBASE_TITLE'] = 'База знаний';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CAMPAIGN_LIST_SUBPANEL_TITLE'] = 'Маркетинговые кампании';
+$mod_strings['LBL_CAMPAIGN_LEAD_SUBPANEL_TITLE'] = 'Предварительные контакты';
+
+?>

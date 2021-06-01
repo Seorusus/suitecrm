@@ -1,0 +1,84 @@
+<?php
+$module_name = 'custo_contact';
+$searchdefs [$module_name] = 
+array (
+  'layout' => 
+  array (
+    'basic_search' => 
+    array (
+      'search_name' => 
+      array (
+        'name' => 'search_name',
+        'label' => 'LBL_NAME',
+        'type' => 'name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'current_user_only' => 
+      array (
+        'name' => 'current_user_only',
+        'label' => 'LBL_CURRENT_USER_FILTER',
+        'type' => 'bool',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'sity_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_SITY',
+        'width' => '10%',
+        'name' => 'sity_c',
+      ),
+    ),
+    'advanced_search' => 
+    array (
+      'last_name' => 
+      array (
+        'name' => 'last_name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'first_name' => 
+      array (
+        'name' => 'first_name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'sity_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_SITY',
+        'width' => '10%',
+        'name' => 'sity_c',
+      ),
+      'created_by_name' => 
+      array (
+        'name' => 'created_by_name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'email' => 
+      array (
+        'name' => 'email',
+        'default' => true,
+        'width' => '10%',
+      ),
+    ),
+  ),
+  'templateMeta' => 
+  array (
+    'maxColumns' => '3',
+    'maxColumnsBasic' => '4',
+    'widths' => 
+    array (
+      'label' => '10',
+      'field' => '30',
+    ),
+  ),
+);
+;
+?>

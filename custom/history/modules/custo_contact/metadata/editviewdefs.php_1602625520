@@ -1,0 +1,178 @@
+<?php
+$module_name = 'custo_contact';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => true,
+      'tabDefs' => 
+      array (
+        'LBL_CONTACT_INFORMATION' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_ADDRESS_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'lbl_contact_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'first_name',
+            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name"  id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
+          ),
+          1 => 'last_name',
+        ),
+        1 => 
+        array (
+          0 => 'phone_work',
+          1 => 'phone_mobile',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'company_c',
+            'studio' => 'visible',
+            'label' => 'LBL_COMPANY',
+          ),
+          1 => 'description',
+        ),
+        3 => 
+        array (
+          0 => 'email1',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_modified',
+            'comment' => 'Date record last modified',
+            'label' => 'LBL_DATE_MODIFIED',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 'assigned_user_name',
+        ),
+      ),
+      'lbl_address_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sity_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SITY',
+          ),
+          1 => 
+          array (
+            'name' => 'street_c',
+            'label' => 'LBL_STREET',
+          ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lpr_c',
+            'label' => 'LBL_LPR',
+          ),
+          1 => 
+          array (
+            'name' => 'type_object_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPE_OBJECT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'not_order_c',
+            'label' => 'LBL_NOT_ORDER',
+          ),
+          1 => 
+          array (
+            'name' => 'get_order_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GET_ORDER',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sum_c',
+            'label' => 'LBL_SUM',
+          ),
+          1 => 
+          array (
+            'name' => 'feedback_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FEEDBACK',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sms_c',
+            'label' => 'LBL_SMS',
+          ),
+          1 => 
+          array (
+            'name' => 'site_tender_c',
+            'label' => 'LBL_SITE_TENDER',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'set_propose_c',
+            'label' => 'LBL_SET_PROPOSE',
+          ),
+          1 => '',
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>
